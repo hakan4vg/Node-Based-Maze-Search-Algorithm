@@ -10,3 +10,13 @@ This project implements a node-based maze search algorithm using Python. It incl
 - **Astar.py**: Contains the implementation of the A* algorithm for pathfinding in a maze.
 
 - **Nodebased.py**: Contains the implementation of a node-based maze search algorithm which iterates among the cells to create a mapping of intersections and their neighbouring intersections similar to network routing. Instead of using A* at a cell based environment, this tries to calculate the shortest path with A* among the intersection nodes.
+
+
+## Preview - Not actual speeds, A* is 60-80% faster in most use scenarios
+### A*
+
+![](https://github.com/hakan4vg/Node-Based-Maze-Search-Algorithm/blob/main/media/Astar.gif)
+
+### Node Based
+
+![](https://github.com/hakan4vg/Node-Based-Maze-Search-Algorithm/blob/main/media/Node.gif)
